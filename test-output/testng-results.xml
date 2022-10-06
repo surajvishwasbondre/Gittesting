@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="25" passed="23" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-06T17:02:48 IST" name="Suite" finished-at="2022-10-06T17:03:40 IST" duration-ms="51464">
+    <groups>
+      <group name="regression">
+        <method signature="DemoTestNG.TestCase4()[pri:8, instance:com.vyasa.automation.testing.DemoTestNG@49b0b76]" name="TestCase4" class="com.vyasa.automation.testing.DemoTestNG"/>
+      </group> <!-- regression -->
+      <group name="regression,sanity">
+        <method signature="DemoTestNG.TestCase5()[pri:2, instance:com.vyasa.automation.testing.DemoTestNG@49b0b76]" name="TestCase5" class="com.vyasa.automation.testing.DemoTestNG"/>
+      </group> <!-- regression,sanity -->
+      <group name="sanity">
+        <method signature="DemoTestNG.TestCase3()[pri:7, instance:com.vyasa.automation.testing.DemoTestNG@49b0b76]" name="TestCase3" class="com.vyasa.automation.testing.DemoTestNG"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-10-06T17:02:48 IST" name="Test" finished-at="2022-10-06T17:03:40 IST" duration-ms="51464">
+      <class name="com.vyasa.automation.testing.TestNGAnnotations1">
+        <test-method is-config="true" signature="beforeSuiteMethod()[pri:0, instance:com.vyasa.automation.testing.TestNGAnnotations1@35047d03]" started-at="2022-10-06T17:02:48 IST" name="beforeSuiteMethod" finished-at="2022-10-06T17:02:48 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteMethod -->
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:com.vyasa.automation.testing.TestNGAnnotations1@35047d03]" started-at="2022-10-06T17:02:48 IST" name="beforeTestMethod" finished-at="2022-10-06T17:02:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:com.vyasa.automation.testing.TestNGAnnotations1@35047d03]" started-at="2022-10-06T17:02:49 IST" name="beforeClassMethod" finished-at="2022-10-06T17:02:49 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.vyasa.automation.testing.TestNGAnnotations1@35047d03]" started-at="2022-10-06T17:02:49 IST" name="beforeMethod" finished-at="2022-10-06T17:02:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testMethod()[pri:0, instance:com.vyasa.automation.testing.TestNGAnnotations1@35047d03]" started-at="2022-10-06T17:02:49 IST" name="testMethod" finished-at="2022-10-06T17:02:49 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.vyasa.automation.testing.TestNGAnnotations1@35047d03]" started-at="2022-10-06T17:02:49 IST" name="afterMethod" finished-at="2022-10-06T17:02:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:com.vyasa.automation.testing.TestNGAnnotations1@35047d03]" started-at="2022-10-06T17:02:49 IST" name="afterClassMethod" finished-at="2022-10-06T17:02:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.vyasa.automation.testing.TestNGAnnotations1@35047d03]" started-at="2022-10-06T17:03:40 IST" name="afterTest" finished-at="2022-10-06T17:03:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuiteMethod()[pri:0, instance:com.vyasa.automation.testing.TestNGAnnotations1@35047d03]" started-at="2022-10-06T17:03:40 IST" name="afterSuiteMethod" finished-at="2022-10-06T17:03:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteMethod -->
+      </class> <!-- com.vyasa.automation.testing.TestNGAnnotations1 -->
+      <class name="com.vyasa.automation.testing.OpenBrowers">
+        <test-method is-config="true" signature="openBrower()[pri:0, instance:com.vyasa.automation.testing.OpenBrowers@769f71a9]" started-at="2022-10-06T17:03:13 IST" name="openBrower" finished-at="2022-10-06T17:03:21 IST" duration-ms="8072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrower -->
+        <test-method signature="verifyCartDisplayed()[pri:0, instance:com.vyasa.automation.testing.OpenBrowers@769f71a9]" started-at="2022-10-06T17:03:21 IST" name="verifyCartDisplayed" finished-at="2022-10-06T17:03:22 IST" duration-ms="805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartDisplayed -->
+        <test-method signature="verifyHomePageLoaded()[pri:0, instance:com.vyasa.automation.testing.OpenBrowers@769f71a9]" started-at="2022-10-06T17:03:22 IST" name="verifyHomePageLoaded" finished-at="2022-10-06T17:03:22 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLoaded -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.vyasa.automation.testing.OpenBrowers@769f71a9]" started-at="2022-10-06T17:03:22 IST" name="closeBrower" finished-at="2022-10-06T17:03:23 IST" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+      </class> <!-- com.vyasa.automation.testing.OpenBrowers -->
+      <class name="com.vyasa.automation.testing.TestNGAnnotations">
+        <test-method is-config="true" signature="beforeSuiteMethod()[pri:0, instance:com.vyasa.automation.testing.TestNGAnnotations@2473d930]" started-at="2022-10-06T17:02:48 IST" name="beforeSuiteMethod" finished-at="2022-10-06T17:02:48 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteMethod -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.vyasa.automation.testing.TestNGAnnotations@2473d930]" started-at="2022-10-06T17:02:48 IST" name="beforeTest" finished-at="2022-10-06T17:02:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:com.vyasa.automation.testing.TestNGAnnotations@2473d930]" started-at="2022-10-06T17:02:48 IST" name="beforeClassMethod" finished-at="2022-10-06T17:02:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.vyasa.automation.testing.TestNGAnnotations@2473d930]" started-at="2022-10-06T17:02:48 IST" name="beforeMethod" finished-at="2022-10-06T17:02:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testMethod()[pri:0, instance:com.vyasa.automation.testing.TestNGAnnotations@2473d930]" started-at="2022-10-06T17:02:48 IST" name="testMethod" finished-at="2022-10-06T17:02:49 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.vyasa.automation.testing.TestNGAnnotations@2473d930]" started-at="2022-10-06T17:02:49 IST" name="afterMethod" finished-at="2022-10-06T17:02:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:com.vyasa.automation.testing.TestNGAnnotations@2473d930]" started-at="2022-10-06T17:02:49 IST" name="afterClassMethod" finished-at="2022-10-06T17:02:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.vyasa.automation.testing.TestNGAnnotations@2473d930]" started-at="2022-10-06T17:03:40 IST" name="afterTest" finished-at="2022-10-06T17:03:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuiteMethod()[pri:0, instance:com.vyasa.automation.testing.TestNGAnnotations@2473d930]" started-at="2022-10-06T17:03:40 IST" name="afterSuiteMethod" finished-at="2022-10-06T17:03:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteMethod -->
+      </class> <!-- com.vyasa.automation.testing.TestNGAnnotations -->
+      <class name="com.vyasa.automation.testing.DemoTestNG">
+        <test-method signature="TestCase1()[pri:1, instance:com.vyasa.automation.testing.DemoTestNG@49b0b76]" started-at="2022-10-06T17:03:23 IST" name="TestCase1" description="test case verify the title page" finished-at="2022-10-06T17:03:23 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.vyasa.automation.testing.DemoTestNG.TestCase1(DemoTestNG.java:14)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1 -->
+        <test-method signature="TestCase5()[pri:2, instance:com.vyasa.automation.testing.DemoTestNG@49b0b76]" started-at="2022-10-06T17:03:30 IST" name="TestCase5" finished-at="2022-10-06T17:03:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase5 -->
+        <test-method signature="TestCase12()[pri:3, instance:com.vyasa.automation.testing.DemoTestNG@49b0b76]" started-at="2022-10-06T17:03:30 IST" name="TestCase12" finished-at="2022-10-06T17:03:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase12 -->
+        <test-method signature="TestCase11()[pri:5, instance:com.vyasa.automation.testing.DemoTestNG@49b0b76]" started-at="2022-10-06T17:03:31 IST" name="TestCase11" finished-at="2022-10-06T17:03:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase11 -->
+        <test-method signature="TestCase3()[pri:7, instance:com.vyasa.automation.testing.DemoTestNG@49b0b76]" started-at="2022-10-06T17:03:40 IST" name="TestCase3" finished-at="2022-10-06T17:03:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase3 -->
+        <test-method signature="TestCase4()[pri:8, instance:com.vyasa.automation.testing.DemoTestNG@49b0b76]" started-at="2022-10-06T17:03:40 IST" name="TestCase4" finished-at="2022-10-06T17:03:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase4 -->
+        <test-method signature="TestCase6()[pri:6, instance:com.vyasa.automation.testing.DemoTestNG@49b0b76]" started-at="2022-10-06T17:03:40 IST" name="TestCase6" depends-on-groups="regression" finished-at="2022-10-06T17:03:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase6 -->
+        <test-method signature="TestCase7()[pri:9, instance:com.vyasa.automation.testing.DemoTestNG@49b0b76]" started-at="2022-10-06T17:03:40 IST" name="TestCase7" finished-at="2022-10-06T17:03:40 IST" depends-on-methods="com.vyasa.automation.testing.DemoTestNG.TestCase4" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase7 -->
+        <test-method signature="TestCase8()[pri:10, instance:com.vyasa.automation.testing.DemoTestNG@49b0b76]" started-at="2022-10-06T17:03:40 IST" name="TestCase8" finished-at="2022-10-06T17:03:40 IST" depends-on-methods="com.vyasa.automation.testing.DemoTestNG.TestCase6" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase8 -->
+        <test-method signature="TestCase9()[pri:11, instance:com.vyasa.automation.testing.DemoTestNG@49b0b76]" started-at="2022-10-06T17:03:40 IST" name="TestCase9" finished-at="2022-10-06T17:03:40 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase9 -->
+        <test-method signature="TestCase10()[pri:12, instance:com.vyasa.automation.testing.DemoTestNG@49b0b76]" started-at="2022-10-06T17:03:40 IST" name="TestCase10" finished-at="2022-10-06T17:03:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase10 -->
+      </class> <!-- com.vyasa.automation.testing.DemoTestNG -->
+      <class name="com.vyasa.automation.testing.DataProviderDemo">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.vyasa.automation.testing.DataProviderDemo@4c9f8c13]" started-at="2022-10-06T17:02:49 IST" name="browserSetup" finished-at="2022-10-06T17:03:00 IST" duration-ms="10958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="verifUserLogon(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vyasa.automation.testing.DataProviderDemo@4c9f8c13]" started-at="2022-10-06T17:03:00 IST" name="verifUserLogon" data-provider="LoginData" finished-at="2022-10-06T17:03:02 IST" duration-ms="2685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blank]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifUserLogon -->
+        <test-method signature="verifUserLogon(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vyasa.automation.testing.DataProviderDemo@4c9f8c13]" started-at="2022-10-06T17:03:02 IST" name="verifUserLogon" data-provider="LoginData" finished-at="2022-10-06T17:03:05 IST" duration-ms="2799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blankpass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vyasainstitute2022@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifUserLogon -->
+        <test-method signature="verifUserLogon(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vyasa.automation.testing.DataProviderDemo@4c9f8c13]" started-at="2022-10-06T17:03:05 IST" name="verifUserLogon" data-provider="LoginData" finished-at="2022-10-06T17:03:08 IST" duration-ms="2665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrongcredentials]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vyasainstitut2022@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifUserLogon -->
+        <test-method signature="verifUserLogon(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vyasa.automation.testing.DataProviderDemo@4c9f8c13]" started-at="2022-10-06T17:03:08 IST" name="verifUserLogon" data-provider="LoginData" finished-at="2022-10-06T17:03:12 IST" duration-ms="4664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[succlogin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vyasainstitute2022@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vyasa@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifUserLogon -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.vyasa.automation.testing.DataProviderDemo@4c9f8c13]" started-at="2022-10-06T17:03:12 IST" name="afterClass" finished-at="2022-10-06T17:03:13 IST" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.vyasa.automation.testing.DataProviderDemo -->
+      <class name="com.vyasa.automation.testing.HomePageAutomation">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.vyasa.automation.testing.HomePageAutomation@5ae50ce6]" started-at="2022-10-06T17:03:23 IST" name="browserSetup" finished-at="2022-10-06T17:03:30 IST" duration-ms="7614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="verifyHomePageLoaded()[pri:1, instance:com.vyasa.automation.testing.HomePageAutomation@5ae50ce6]" started-at="2022-10-06T17:03:30 IST" name="verifyHomePageLoaded" description="verify homepage is loaded" finished-at="2022-10-06T17:03:30 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLoaded -->
+        <test-method signature="verifyNewArrivalsDisplayed()[pri:2, instance:com.vyasa.automation.testing.HomePageAutomation@5ae50ce6]" started-at="2022-10-06T17:03:30 IST" name="verifyNewArrivalsDisplayed" description="verifyNewArrivalsDisplayed" finished-at="2022-10-06T17:03:30 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewArrivalsDisplayed -->
+        <test-method signature="verifyHomePageWithThreeSliders()[pri:3, instance:com.vyasa.automation.testing.HomePageAutomation@5ae50ce6]" started-at="2022-10-06T17:03:30 IST" name="verifyHomePageWithThreeSliders" description="verify HomePage With Three Sliders" finished-at="2022-10-06T17:03:31 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageWithThreeSliders -->
+        <test-method signature="verifyHomePageWithThreeArrivals()[pri:4, instance:com.vyasa.automation.testing.HomePageAutomation@5ae50ce6]" started-at="2022-10-06T17:03:31 IST" name="verifyHomePageWithThreeArrivals" description="verify HomePage With Three Arrivals" finished-at="2022-10-06T17:03:31 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageWithThreeArrivals -->
+        <test-method signature="verifyHomePageWithThreeArrivalsNavigation()[pri:5, instance:com.vyasa.automation.testing.HomePageAutomation@5ae50ce6]" started-at="2022-10-06T17:03:31 IST" name="verifyHomePageWithThreeArrivalsNavigation" description="verify HomePage With Three Arrivals Navigation" finished-at="2022-10-06T17:03:39 IST" duration-ms="8892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageWithThreeArrivalsNavigation -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.vyasa.automation.testing.HomePageAutomation@5ae50ce6]" started-at="2022-10-06T17:03:39 IST" name="browserClose" finished-at="2022-10-06T17:03:40 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.vyasa.automation.testing.HomePageAutomation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

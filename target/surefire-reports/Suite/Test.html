@@ -1,0 +1,316 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 06 17:04:46 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>47 seconds (47492 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.vyasa.automation.testing.DemoTestNG.TestCase1()'><b>TestCase1</b><br>Test class: com.vyasa.automation.testing.DemoTestNG<br>Test method: test case verify the title page</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.vyasa.automation.testing.DemoTestNG.TestCase1(DemoTestNG.java:14)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1168079523", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1168079523'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at com.vyasa.automation.testing.DemoTestNG.TestCase1(DemoTestNG.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>0</td>
+<td>com.vyasa.automation.testing.DemoTestNG@23986957</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.HomePageAutomation.verifyHomePageWithThreeArrivalsNavigation()'><b>verifyHomePageWithThreeArrivalsNavigation</b><br>Test class: com.vyasa.automation.testing.HomePageAutomation<br>Test method: verify HomePage With Three Arrivals Navigation</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SURAJ&apos;, ip: &apos;192.168.239.134&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57392}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61e00b60ed46b56e92527a9c46dab320
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at com.vyasa.automation.testing.HomePageAutomation.verifyHomePageWithThreeArrivalsNavigation(HomePageAutomation.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace742672280", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace742672280'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SURAJ&apos;, ip: &apos;192.168.239.134&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57392}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61e00b60ed46b56e92527a9c46dab320
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at com.vyasa.automation.testing.HomePageAutomation.verifyHomePageWithThreeArrivalsNavigation(HomePageAutomation.java:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>6</td>
+<td>com.vyasa.automation.testing.HomePageAutomation@7d3a22a9</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.vyasa.automation.testing.DemoTestNG.TestCase10()'><b>TestCase10</b><br>Test class: com.vyasa.automation.testing.DemoTestNG</td>
+<td></td>
+<td>0</td>
+<td>com.vyasa.automation.testing.DemoTestNG@23986957</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.DemoTestNG.TestCase11()'><b>TestCase11</b><br>Test class: com.vyasa.automation.testing.DemoTestNG</td>
+<td></td>
+<td>0</td>
+<td>com.vyasa.automation.testing.DemoTestNG@23986957</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.DemoTestNG.TestCase12()'><b>TestCase12</b><br>Test class: com.vyasa.automation.testing.DemoTestNG</td>
+<td></td>
+<td>0</td>
+<td>com.vyasa.automation.testing.DemoTestNG@23986957</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.DemoTestNG.TestCase3()'><b>TestCase3</b><br>Test class: com.vyasa.automation.testing.DemoTestNG</td>
+<td></td>
+<td>0</td>
+<td>com.vyasa.automation.testing.DemoTestNG@23986957</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.DemoTestNG.TestCase4()'><b>TestCase4</b><br>Test class: com.vyasa.automation.testing.DemoTestNG</td>
+<td></td>
+<td>0</td>
+<td>com.vyasa.automation.testing.DemoTestNG@23986957</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.DemoTestNG.TestCase5()'><b>TestCase5</b><br>Test class: com.vyasa.automation.testing.DemoTestNG</td>
+<td></td>
+<td>0</td>
+<td>com.vyasa.automation.testing.DemoTestNG@23986957</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.DemoTestNG.TestCase6()'><b>TestCase6</b><br>Test class: com.vyasa.automation.testing.DemoTestNG</td>
+<td></td>
+<td>0</td>
+<td>com.vyasa.automation.testing.DemoTestNG@23986957</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.DemoTestNG.TestCase7()'><b>TestCase7</b><br>Test class: com.vyasa.automation.testing.DemoTestNG</td>
+<td></td>
+<td>0</td>
+<td>com.vyasa.automation.testing.DemoTestNG@23986957</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.DemoTestNG.TestCase8()'><b>TestCase8</b><br>Test class: com.vyasa.automation.testing.DemoTestNG</td>
+<td></td>
+<td>0</td>
+<td>com.vyasa.automation.testing.DemoTestNG@23986957</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.DemoTestNG.TestCase9()'><b>TestCase9</b><br>Test class: com.vyasa.automation.testing.DemoTestNG</td>
+<td></td>
+<td>0</td>
+<td>com.vyasa.automation.testing.DemoTestNG@23986957</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.TestNGAnnotations.testMethod()'><b>testMethod</b><br>Test class: com.vyasa.automation.testing.TestNGAnnotations</td>
+<td></td>
+<td>0</td>
+<td>com.vyasa.automation.testing.TestNGAnnotations@2133814f</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.TestNGAnnotations1.testMethod()'><b>testMethod</b><br>Test class: com.vyasa.automation.testing.TestNGAnnotations1</td>
+<td></td>
+<td>0</td>
+<td>com.vyasa.automation.testing.TestNGAnnotations1@4c15e7fd</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.DataProviderDemo.verifUserLogon()'><b>verifUserLogon</b><br>Test class: com.vyasa.automation.testing.DataProviderDemo<br>Parameters: blank, , </td>
+<td></td>
+<td>2</td>
+<td>com.vyasa.automation.testing.DataProviderDemo@1e730495</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.DataProviderDemo.verifUserLogon()'><b>verifUserLogon</b><br>Test class: com.vyasa.automation.testing.DataProviderDemo<br>Parameters: blankpass, vyasainstitute2022@gmail.com, </td>
+<td></td>
+<td>2</td>
+<td>com.vyasa.automation.testing.DataProviderDemo@1e730495</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.DataProviderDemo.verifUserLogon()'><b>verifUserLogon</b><br>Test class: com.vyasa.automation.testing.DataProviderDemo<br>Parameters: wrongcredentials, vyasainstitut2022@gmail.com, admin123</td>
+<td></td>
+<td>2</td>
+<td>com.vyasa.automation.testing.DataProviderDemo@1e730495</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.DataProviderDemo.verifUserLogon()'><b>verifUserLogon</b><br>Test class: com.vyasa.automation.testing.DataProviderDemo<br>Parameters: succlogin, vyasainstitute2022@gmail.com, Vyasa@12345</td>
+<td></td>
+<td>2</td>
+<td>com.vyasa.automation.testing.DataProviderDemo@1e730495</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.OpenBrowers.verifyCartDisplayed()'><b>verifyCartDisplayed</b><br>Test class: com.vyasa.automation.testing.OpenBrowers</td>
+<td></td>
+<td>1</td>
+<td>com.vyasa.automation.testing.OpenBrowers@23f7d05d</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.OpenBrowers.verifyHomePageLoaded()'><b>verifyHomePageLoaded</b><br>Test class: com.vyasa.automation.testing.OpenBrowers</td>
+<td></td>
+<td>0</td>
+<td>com.vyasa.automation.testing.OpenBrowers@23f7d05d</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.HomePageAutomation.verifyHomePageLoaded()'><b>verifyHomePageLoaded</b><br>Test class: com.vyasa.automation.testing.HomePageAutomation<br>Test method: verify homepage is loaded</td>
+<td></td>
+<td>0</td>
+<td>com.vyasa.automation.testing.HomePageAutomation@7d3a22a9</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.HomePageAutomation.verifyHomePageWithThreeArrivals()'><b>verifyHomePageWithThreeArrivals</b><br>Test class: com.vyasa.automation.testing.HomePageAutomation<br>Test method: verify HomePage With Three Arrivals</td>
+<td></td>
+<td>0</td>
+<td>com.vyasa.automation.testing.HomePageAutomation@7d3a22a9</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.HomePageAutomation.verifyHomePageWithThreeSliders()'><b>verifyHomePageWithThreeSliders</b><br>Test class: com.vyasa.automation.testing.HomePageAutomation<br>Test method: verify HomePage With Three Sliders</td>
+<td></td>
+<td>0</td>
+<td>com.vyasa.automation.testing.HomePageAutomation@7d3a22a9</td></tr>
+<tr>
+<td title='com.vyasa.automation.testing.HomePageAutomation.verifyNewArrivalsDisplayed()'><b>verifyNewArrivalsDisplayed</b><br>Test class: com.vyasa.automation.testing.HomePageAutomation<br>Test method: verifyNewArrivalsDisplayed</td>
+<td></td>
+<td>0</td>
+<td>com.vyasa.automation.testing.HomePageAutomation@7d3a22a9</td></tr>
+</table><p>
+</body>
+</html>
